@@ -1,0 +1,15 @@
+{
+    "servers": ["127.0.0.1"],
+    "threshold": 80,
+    "interval": 30,
+    "log_level": "DEBUG",
+    "notification_type": "slack",
+    "notification_config": {
+        "slack_webhook_url": "",
+        "email": {
+            "smtp_server": "",
+            "from_addr": "",
+            "to_addrs": []
+        }
+    }
+}
